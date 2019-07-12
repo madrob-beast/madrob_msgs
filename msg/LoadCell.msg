@@ -6,5 +6,5 @@ uint8   STATUS_PGAL = 1
 uint8   STATUS_PGAH = 2
 uint8   STATUS_PGAD = 4
 
-uint32  adu     # ADC reading [ADU]
+int32   adu     # ADC reading [ADU]
 uint8   status  # Handle controller status, values defined above
