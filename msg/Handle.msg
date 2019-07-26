@@ -7,5 +7,5 @@ uint8   STATUS_TIMEOUT = 2
 
 Header header
 
-float32   force   # Average force [N]
+float32[4]   forces   # Forces [N]
 uint8   status  # Handle controller status, values defined above
