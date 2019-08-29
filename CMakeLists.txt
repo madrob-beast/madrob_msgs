@@ -51,8 +51,6 @@ add_message_files(
   FILES
   Door.msg
   Handle.msg
-  HandleRAW.msg
-  LoadCell.msg
   Passage.msg
 )
 
