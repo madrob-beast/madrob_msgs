@@ -2,10 +2,9 @@
 
 # Status constants (TBD)
 uint8   STATUS_OK = 0
-uint8   STATUS_ERROR = 1
-uint8   STATUS_TIMEOUT = 2
 
 Header header
 
-sensor_msgs/Range[4] cw_sensor # Ranges from sensor mounted on the CW opening side of the door
-sensor_msgs/Range[4] ccw_sensor # Ranges from sensor mounted on the CCW opening side of the door
+sensor_msgs/Range[4] ranges # Ranges from TOF sensors
+uint8   status  # Range sensors status, values defined above
+
