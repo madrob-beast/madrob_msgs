@@ -48,6 +48,7 @@ uint8       brake_mu        # Braking setpoint measurement units, values defined
 float32     brake_setpoint  # Setpoint [brake_mu]
 float32     brake_current   # Brake current setpoint [%]
 float32     brake_force     # Brake force [Force]
+float32     iq_setpoint     # Iq setpoint
 
 float32     position_calibration_ccw  # Encoder duty cycle at max CCW
 float32     position_calibration_zero # Encoder duty cycle at zero
