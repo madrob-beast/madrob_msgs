@@ -52,6 +52,7 @@ add_message_files(
   Door.msg
   Handle.msg
   Passage.msg
+  Lock.msg
 )
 
 ## Generate services in the 'srv' folder
